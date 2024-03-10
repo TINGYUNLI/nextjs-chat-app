@@ -76,7 +76,7 @@ const Header: React.FC<HeaderProps> = ({ conversation }) => {
           )}
           <div className="flex flex-col">
             <div>{conversation.name || otherUser.name}</div>
-            <div
+            {/* <div
               className="
                   text-sm
                   font-light
@@ -84,7 +84,7 @@ const Header: React.FC<HeaderProps> = ({ conversation }) => {
               "
             >
               {statusText}
-            </div>
+            </div> */}
           </div>
         </div>
         <HiEllipsisHorizontal

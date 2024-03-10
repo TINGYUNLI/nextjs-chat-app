@@ -185,9 +185,9 @@ const ProfileDrawer: React.FC<ProfileDrawerProps> = ({
                             )}
                           </div>
                           <div>{title}</div>
-                          <div className="text-sm text-gray-500">
+                          {/* <div className="text-sm text-gray-500">
                             {statusText}
-                          </div>
+                          </div> */}
                           <div className="flex gap-10 my-8">
                             <div
                               onClick={() => setConfirmOpen(true)}
